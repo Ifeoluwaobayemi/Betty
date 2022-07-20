@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Portfolio section starts */
+.portfolio {
+    /* height: 80vh; */
+    width: 100%;
+    background-color: black;
+    padding: 5ch;
+    color: white;
+}
+
+.portfolio h2 {
+    margin: 4rem;
+    text-align: center;
+    font-size: 40px;
+}
+
+.portfolio h2 span {
+    color: #f9004d;
+}
+
+.project-main {
+    display: flex;
+    margin: 2rem auto;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100%;
+    justify-content: space-between;
+}
+
+.project-card {
+    width: 400px;
+    background-color: aliceblue;
+    color: black;
+    margin-right: 20px;
+    height: 70vh;
+    border-radius: 20px !important;
+    overflow: hidden;
+    margin: auto;
+}
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.project-card p {
+    line-height: 1.5rem;
+}
+
+/* Portfolio section ends */
+
+
+/*Footer section starts*/
+.footer {
+    /* height: 20vh; */
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 5ch;
+}
+
+footer hr {
+    color: black;
+    width: 90%;
+    margin: auto;
+}
+
+.copy {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.details {
+    position: relative;
+    left: -30%;
+    margin-top: 20px;
+
+}
+
+.footer-box {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100%;
+    position: relative;
+}
+
+.footer h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+footer .icon {
+    margin-right: 15px;
+}
+
+.flex-content {
+    width: 30%;
+    /* border-right: 2px solid #f9004d; */
+    margin-right: 10px;
+    text-align: center;
+    position: relative;
+
+}
+
+.flex-content .cont {
+    text-align: center;
+
+}
+
+.flex-content h2 {
+    color: black;
+}
+
+.flex-content h2 span {
+    color: #f9004d;
+}
+
+
+/*Footer section Ends*/
+
+/* Responsiveness */
+
+@media(max-width:1060px) {
+    .flex-content {
+        width: 45%;
+        margin-top: 30px;
+    }
+
+}
+
+@media(max-width:768px) {
+    .flex-content {
+        width: 70%;
+        margin-top: 50px;
+
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    nav {
+        width: 100%
+    }
+
+    .skills-main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .skills-card {
+        width: 95%;
+        margin-top: 4ch;
+        padding: 20px;
+    }
+
+    .service-main {
+        margin-top: 1rem;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .service h2 {
+        margin-top: 20rem;
+    }
+
+    .card {
+        width: 100%;
+        height: 50vh;
+        margin-top: 1rem;
+    }
+
+    .card img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .contact {
+        width: 90%;
+    }
+
+    .footer .icon {
+        font-size: 20px;
+    }
+}
